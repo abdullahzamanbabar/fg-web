@@ -1,0 +1,16 @@
+.aboutouter {
+    display: inline-block;
+    background-color: #342606;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.aboutinner {
+    display: inline-block;
+    background-color: #ead8aa;
+    padding: 4% 3% !important;
+    margin-top: 4%;
+    /* margin-bottom: 4%; */
+    width:72% !important;
+    text-align: justify;
+}

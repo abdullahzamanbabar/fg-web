@@ -1,0 +1,22 @@
+.storyouter {
+    display:inline-block;
+    background-color: #FAEDCD;
+    text-align: justify;
+}
+
+.storyinner{
+    /* border:solid; */
+    border-radius: 10%;
+    background-color: #342606;
+    color: #f9daa7;
+    width:65% !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5% !important;
+}
+
+@media screen and (max-width: 800px) {
+    .storyinner {
+        border-radius: 0%;
+    }
+  }
