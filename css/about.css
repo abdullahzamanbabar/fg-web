@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+
 .aboutouter {
     display: inline-block;
     background-color: #342606;
@@ -13,4 +16,9 @@
     /* margin-bottom: 4%; */
     width:72% !important;
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aboutinner h2{
+    margin-bottom: 2%;
 }

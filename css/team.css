@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+
 .teamouter {
     display:inline-block;
     background-color: #FAEDCD;
@@ -43,6 +46,7 @@
     margin-bottom:1%;
     margin-left: 35% !important;
     z-index: 1;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logoInfo {
@@ -56,5 +60,9 @@
 .groupInfo {
     text-align: justify;
     padding-right:15% !important;
+    font-family: 'Roboto', sans-serif;
 }
 
+.groupInfo h1{
+    margin-bottom: 3%;
+}

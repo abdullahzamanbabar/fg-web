@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
 .container-fluid.headerTop{
     display: inline-block;
     /* border: solid; */
@@ -7,6 +10,7 @@
 .container.header {
     /* border: solid; */
     text-align: center;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .container-fluid.navigate {
@@ -31,6 +35,12 @@
     font-weight: 500;
 }
 
+.nav span:hover{
+    border-bottom: solid;
+    border-width: 1px !important;;
+    /* border-color: azure; */
+}
+
 .container-fluid.footerTop{
     display: inline-block;
     /* border: solid; */
@@ -50,3 +60,23 @@
 .container.footer a {
     margin-right: .5%;
 }
+
+.hide{
+    display:none;
+}
+
+.nav-link {
+    color:#000000 !important;
+}
+.nav-link.dropdown-toggle{
+    margin-left:0% !important;
+}
+
+@media screen and (max-width: 500px) {
+    .show {
+        display: none;
+    }
+    .hide {
+        display:inline-block;
+    }
+  }
