@@ -22,3 +22,9 @@
 .aboutinner h2{
     margin-bottom: 2%;
 }
+
+@media screen and (max-width: 800px) {
+    .aboutinner {
+        width:100% !important;
+    }
+  }
